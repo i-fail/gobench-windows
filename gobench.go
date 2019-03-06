@@ -105,7 +105,6 @@ func printResults(results map[int]*Result, startTime time.Time) {
 		badFailed += result.badFailed
 	}
 
-//	elapsed := int64(time.Since(startTime).Seconds())
 	elapsed := int64(time.Since(startTime))
 
 	if elapsed == 0 {
